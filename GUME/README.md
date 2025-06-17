@@ -23,8 +23,6 @@ Download from Google Drive: [Baby/Sports/Clothing/Electronics](https://drive.goo
   cd ./src
   python main.py
   ```
-## Performance Comparison
-<img src="image/result.png" width="900px" height="380px"/>
 
 ## Citing GUME
 If you find GUME useful in your research, please consider citing our [paper](https://arxiv.org/abs/2407.12338).
