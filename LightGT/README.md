@@ -9,28 +9,7 @@ The code has been tested running under Python 3.8.15. The required packages are 
 - Pytorch == 1.7.0
 - numpy == 1.23.4
 
-## Example to Run the Codes
-The instruction of commands has been clearly stated in the codes.
 
-- Movielens dataset  
-  `python main.py --l_r=1e-2 --weight_decay=1e-2 --src_len=50 --score_weight=0.05 --nhead=1 --transformer_layers=4 --batch_size=2048 --lightgcn_layers=4 --dataset=movielens`  
-- Tiktok dataset  
-  `python main.py --l_r=1e-2 --weight_decay=1e-2 --src_len=50 --score_weight=0.05 --nhead=1 --transformer_layers=4 --batch_size=2048 --lightgcn_layers=4 --dataset=tiktok`
-
-- Kwai dataset  
-```python main.py --l_r=1e-2 --weight_decay=1e-2 --src_len=50 --score_weight=0.05 --nhead=1 --transformer_layers=4 --batch_size=2048 --lightgcn_layers=4 --dataset=kwai```
-
-## Dataset
-You can find the full version of recommendation datasets via [Kwai](https://www.kuaishou.com/activity/uimc), [Tiktok](http://ai-lab-challenge.bytedance.com/tce/vc/), and [Movielens](https://grouplens.org/datasets/movielens/).
-Since the copyright of datasets, we cannot release them directly. 
-
-||#Interactions|#Users|#Items|Visual|Acoustic|Textual|
-|:-|:-|:-|:-|:-|:-|:-|
-|Movielens|1,239,508|55,485|5,986|2,048|128|100|
-|Tiktok|726,065|36,656|76,085|128|128|128|
-|Kwai|1,664,305|22,611|329,510|2,048|-|100|
-
-It is worth noting that [MMGCN](https://github.com/weiyinwei/MMGCN) provides corresponding toy datasets that can be used for research.
 
 -`train.npy`
    Train file. Each line is a user with her/his positive interactions with items: (userID and micro-video ID)  
