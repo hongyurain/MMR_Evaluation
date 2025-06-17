@@ -1,0 +1,44 @@
+embedding_size: 64
+feat_embed_dim: 64
+cf_model: lightgcn
+
+n_ui_layers: [2]
+n_mm_layers: [2]
+
+#baby taobao
+n_hyper_layer: [1]
+hyper_num: [4]
+keep_rate: [0.5]
+alpha: [0.3]
+
+# #sports
+# n_hyper_layer: [1]
+# hyper_num: [4]
+# keep_rate: [0.4]
+# alpha: [0.6]
+
+# #clothing
+# n_hyper_layer: [2]
+# hyper_num: [64]
+# keep_rate: [0.2]
+# alpha: [0.2]
+
+#DY
+# n_hyper_layer: [2]
+# hyper_num: [16]
+# keep_rate: [0.5]
+# alpha: [0.2]
+
+# n_hyper_layer: [1,2]
+# hyper_num: [4, 8, 16, 32, 64]
+# keep_rate: [0.2,0.3,0.4,0.5]
+# alpha: [0.2,0.3,0.4,0.5,0.6]
+
+
+# cl_weight : [1e-06,1e-05,1e-04,1e-03,1e-02,1e-01]
+# reg_weight: [1e-06,1e-05,1e-04,1e-03,1e-02,1e-01]
+
+cl_weight : [1e-04]
+reg_weight: [1e-06]
+
+hyper_parameters: ["n_ui_layers", "n_mm_layers", "n_hyper_layer", "hyper_num", "keep_rate",  "alpha", "cl_weight", "reg_weight"]
