@@ -1,0 +1,1 @@
+dataset=Taobao|n_layers=5|decay=0.001|lr=0.001
