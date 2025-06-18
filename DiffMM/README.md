@@ -22,26 +22,19 @@ Performance comparison of baselines on different datasets in terms of Recall@20,
 
 ## 🚀 How to run the codes
 
-The command lines to train DiffKG on the three datasets are as below. The un-specified hyperparameters in the commands are set as default.
+The command lines to train DiffMM is as follow: 
 
-**! If you want to run the codes on baby or sports dataset, please firstly follow the instrcution in ./Datasets** 
 
-- TikTok
+- DY
 
 ```python
-python Main.py --data tiktok --reg 1e-4 --ssl_reg 1e-2 --epoch 50 --trans 1 --e_loss 0.1 --cl_method 1
+python Main.py --data DY --reg 1e-4 --ssl_reg 1e-2 --epoch 50 --trans 1 --e_loss 0.1 --cl_method 1
 ```
 
-- Baby
+- Baby, Taobao
 
 ```python
-python Main.py --data baby --reg 1e-5 --ssl_reg 1e-1 --keepRate 1 --e_loss 0.01
-```
-
-- Sports
-
-```python
-python Main.py --data sports --reg 1e-6 --ssl_reg 1e-2 --temp 0.1 --ris_lambda 0.1 --e_loss 0.5 --keepRate 1 --trans 1
+python Main.py --data baby/taobao --reg 1e-5 --ssl_reg 1e-1 --keepRate 1 --e_loss 0.01
 ```
 
 ## 👉 Code Structure
