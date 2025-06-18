@@ -12,12 +12,6 @@ This is the Pytorch implementation for our GUME paper:
 - python 3.7.11
 - Pytorch 1.11.0
 
-## Dataset
-
-We provide four processed datasets: Baby, Sports, Clothing, Electronics.
-
-Download from Google Drive: [Baby/Sports/Clothing/Electronics](https://drive.google.com/drive/folders/1_j7du9KX30S9PwX8jmHlTmhxOof5WTnS?role=writer)
-
 ## Training
   ```
   cd ./src
