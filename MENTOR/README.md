@@ -12,11 +12,6 @@ This is the Pytorch implementation for our MENTOR paper:
 - python 3.9
 - Pytorch 2.1.0
 
-## Dataset
-
-We provide three processed datasets: Baby, Sports, Clothing.
-
-Download from Google Drive: [Baby/Sports/Clothing](https://drive.google.com/drive/folders/1tU4IxYbLXMkp_DbIOPGvCry16uPvolLk)
 
 ## Training
   ```
